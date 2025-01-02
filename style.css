@@ -16,6 +16,7 @@ input:focus{
     box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
 }
 
+
 textarea {
     width: 100%; 
     min-height: 150px;     
@@ -98,3 +99,14 @@ body{
     border-radius: 10px;
     cursor: pointer;
 }
+
+.form-checkbox{
+    display: flex;
+    gap: 10px;    
+}
+
+input[type="checkbox"] {
+    accent-color:#6A9C89; 
+    cursor: pointer;
+    width: 20px;
+  }
